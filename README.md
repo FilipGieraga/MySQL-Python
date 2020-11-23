@@ -1,6 +1,7 @@
 # MySQL-Python Database
 
 This program creates sql database from scratch. It has a schema shown below and allows you to generate data for all tables.
+![alt tag](https://github.com/FilipGieraga/MySQL-Python/blob/main/schema.png)
 Python script is responsible for creating ficticious data which can then be executed in mysql workbench program.
 Script has a class called Dataset and this class gives us the ability to specify how many users, orders, products and so on we want to have in our database.
 In order for this script to work correctly we need to run methods of this class in correct order, for example program needs to know the ids of products
